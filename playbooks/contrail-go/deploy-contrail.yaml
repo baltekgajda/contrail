@@ -7,4 +7,4 @@
       - contrail_type is defined
       - contrail_type == "atom_api"
     args:
-      chdir: contrail_path
+      chdir: {{ contrail_path }}
